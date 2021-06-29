@@ -7,9 +7,11 @@ const App = () => {
       <h1 className="text-4xl font-bold bg-blue-300 text-indigo-800 text-center py-8 border-t-8 border-b-8 border-indigo-500">
         Tailwind CSS Header
       </h1>
-      <div className="h-auto w-screen bg-indigo-200 flex flex-col items-center">
-        <h3 className="text-center text-6xl py-16">Main Content Heading</h3>
-        <p className="text-center mb-20 text-3xl pb-8 w-2/3 bg-indigo-700 text-gray-200 pt-4 shadow-2xl rounded-md">
+      <div className="h-auto w-screen bg-indigo-100 flex flex-col items-center">
+        <h3 className="text-center text-6xl py-16 font-bold text-indigo-800">
+          Main Content Heading
+        </h3>
+        <p className="text-center mb-20 text-3xl pb-8 w-2/3 bg-indigo-300 text-gray-900 pt-4 px-2 shadow-2xl border-4 border-indigo-900 rounded-md">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Necessitatibus itaque eveniet quam facilis dicta? Eveniet rerum,
           distinctio minus unde voluptatibus illum porro doloribus sed
